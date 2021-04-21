@@ -4,7 +4,7 @@
 
 ## Hello there!
 
-![WBS](/immagini/WBS.png "WBS")
+![WBS](/immagini/WBS_con_sfondo.png "WBS")
 
 |Avvio|**1**|-|
 |-|-|-|
