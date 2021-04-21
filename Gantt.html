@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <script src="node_modules/frappe-gantt/dist/frappe-gantt.js"></script>
+        <link rel="stylesheet" href="node_modules/frappe-gantt/dist/frappe-gantt.css">
+    </head>
+    <body>
+
+    <script>
+            var tasks = [
+                {
+                    start: '2021-01-15',
+                    end: '2021-02-07',
+                    name: 'Analisi requisiti e Studio di fattibilit&#224',
+                    id: 'task_0',
+                    progress: 30
+                }, 
+                {
+                    start: '2021-02-07',
+                    end: '2021-02-14',
+                    name: 'Progettazione concettuale',
+                    id: 'task_1',
+                    progress: 0,
+                    dependencies: 'task_0'
+                },
+                {
+                    start: '2021-02-14',
+                    end: '2021-02-28',
+                    name: 'Progettazione logica',
+                    id: 'task_2',
+                    progress: 0,
+                    dependencies: 'task_1'
+                },
+                {
+                    start: '2021-02-28',
+                    end: '2021-03-10',
+                    name: 'Progettazione fisica',
+                    id: 'task_3',
+                    progress: 0,
+                    dependencies: 'task_2'
+                },
+                {
+                    start: '2021-03-10',
+                    end: '2021-03-26',
+                    name: 'Implementazione',
+                    id: 'task_4',
+                    progress: 0,
+                    dependencies: 'task_3'
+                },
+                {
+                    start: '2021-03-26',
+                    end: '2021-04-10',
+                    name: 'Test',
+                    id: 'task_5',
+                    progress: 0,
+                    dependencies: 'task_4'
+                },
+                {
+                    start: '2021-04-10',
+                    end: '2021-04-25',
+                    name: 'Manutenzione',
+                    id: 'task_6',
+                    progress: 0,
+                    dependencies: 'task_5'
+                }
+            ];
+
+            var gantt_chart = new Gantt(".gantt-target", tasks, {
+                view_modes: ["Quarter-day"],
+                view_mode : 'Week',
+            });
+        </script>
+    </body>
+</html>
