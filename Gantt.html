@@ -12,65 +12,153 @@
         <script>
             var tasks = [
                 {
-                    start: '2021-01-15',
-                    end: '2021-02-07',
-                    name: 'Analisi requisiti e Studio di fattibilit&#224',
+                    start: '2021-09-01',
+                    end: '2021-09-07',
+                    name: 'pianificazione db',
                     id: 'task_0',
                     progress: 30
                 }, 
                 {
-                    start: '2021-02-07',
-                    end: '2021-02-14',
-                    name: 'Progettazione concettuale',
+                    start: '2021-09-07',
+                    end: '2021-09-14',
+                    name: 'analisi numero di tablet e reperimento',
                     id: 'task_1',
                     progress: 0,
                     dependencies: 'task_0'
                 },
                 {
-                    start: '2021-02-14',
-                    end: '2021-02-28',
-                    name: 'Progettazione logica',
+                    start: '2021-09-14',
+                    end: '2021-09-18',
+                    name: 'Scelta provider',
                     id: 'task_2',
                     progress: 0,
                     dependencies: 'task_1'
                 },
                 {
-                    start: '2021-02-28',
-                    end: '2021-03-10',
-                    name: 'Progettazione fisica',
+                    start: '2021-09-18',
+                    end: '2021-09-21',
+                    name: 'lista e riperimento programmi da utilizzare',
                     id: 'task_3',
                     progress: 0,
                     dependencies: 'task_2'
                 },
                 {
-                    start: '2021-03-10',
-                    end: '2021-03-26',
-                    name: 'Implementazione',
+                    start: '2021-09-21',
+                    end: '2021-09-25',
+                    name: 'pianificazione sito',
                     id: 'task_4',
                     progress: 0,
                     dependencies: 'task_3'
                 },
                 {
-                    start: '2021-03-26',
-                    end: '2021-04-10',
-                    name: 'Test',
+                    start: '2021-09-25',
+                    end: '2021-09-30',
+                    name: 'Analisi destinazione turisti',
                     id: 'task_5',
                     progress: 0,
                     dependencies: 'task_4'
                 },
                 {
-                    start: '2021-04-10',
-                    end: '2021-04-25',
-                    name: 'Manutenzione',
+                    start: '2021-09-30',
+                    end: '2021-10-05',
+                    name: 'Scelta opere da fotografare',
                     id: 'task_6',
                     progress: 0,
                     dependencies: 'task_5'
+                },
+                {
+                    start: '2021-10-05',
+                    end: '2021-10-15',
+                    name: 'Scelta dei traduttori',
+                    id: 'task_7',
+                    progress: 0,
+                    dependencies: 'task_6'
+                },
+                {
+                    start: '2021-10-15',
+                    end: '2021-10-17',
+                    name: 'Progettazione schema di rete',
+                    id: 'task_8',
+                    progress: 0,
+                    dependencies: 'task_7'
+                },
+                {
+                    start: '2021-10-17',
+                    end: '2021-10-19',
+                    name: 'Implementazione rete',
+                    id: 'task_9',
+                    progress: 0,
+                    dependencies: 'task_8'
+                }, 
+                {
+                    start: '2021-10-17',
+                    end: '2021-10-19',
+                    name: 'Acquisto tablet',
+                    id: 'task_10',
+                    progress: 0,
+                    dependencies: 'task_8'
+                },
+                {
+                    start: '2021-10-19',
+                    end: '2021-10-20',
+                    name: 'Installazione programmi sui tablet',
+                    id: 'task_11',
+                    progress: 0,
+                    dependencies: 'task_10'
+                },
+                {
+                    start: '2021-10-20',
+                    end: '2021-10-23',
+                    name: 'fotografare dipinti',
+                    id: 'task_12',
+                    progress: 0,
+                    dependencies: 'task_11'
+                },
+                {
+                    start: '2021-10-20',
+                    end: '2021-10-23',
+                    name: 'girare video',
+                    id: 'task_13',
+                    progress: 0,
+                    dependencies: 'task_11'
+                },
+                {
+                    start: '2021-10-23',
+                    end: '2021-10-28',
+                    name: 'Creazione sito',
+                    id: 'task_14',
+                    progress: 0,
+                    dependencies: 'task_13'
+                },
+                {
+                    start: '2021-10-28',
+                    end: '2021-11-05',
+                    name: 'Registrazione video',
+                    id: 'task_15',
+                    progress: 0,
+                    dependencies: 'task_14'
+                },
+                {
+                    start: '2021-11-05',
+                    end: '2021-11-20',
+                    name: 'Test',
+                    id: 'task_16',
+                    progress: 0,
+                    dependencies: 'task_15'
+                },
+                {
+                    start: '2021-11-20',
+                    end: '2021-11-25',
+                    name: 'Manutenzione',
+                    id: 'task_17',
+                    progress: 0,
+                    dependencies: 'task_16'
                 }
             ];
 
             var gantt_chart = new Gantt(".gantt-target", tasks, {
                 view_modes: ["Quarter-day"],
-                view_mode : 'Week',
+                view_mode : 'Day',
             });
         </script>
     </body>

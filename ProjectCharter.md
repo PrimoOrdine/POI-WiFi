@@ -6,7 +6,7 @@
 
 | Progetto: Florence of Things | Codice Progetto: FA69420AF |
 | - | - |
-| **Data: 13/03/2019** | **Revisione: 0**|
+| **Data: 01/09/2021** | **Revisione: 0**|
 | **Cliente: Assessorato al turismo** | **Sponsor: Google** |
 
 1. OBIETTIVI
