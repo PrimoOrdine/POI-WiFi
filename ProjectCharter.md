@@ -21,15 +21,15 @@
 -provider per sito web
 -guida per le registrazioni i vinicoli del progetto riguardano il solo utilizzo di tablet per usufruire dei video
 5. TEMPISTICA PRELIMINARE
->Avvio:
+>Avvio:01/09/2021-25/09/2021
 
->Realizzazione:
+>Realizzazione:25/09/2021-28/10/2021
 
->Rilascio e collaudo:
+>Rilascio e collaudo:28/10/2021-20/11/2021
 6. PRINCIPALI RISORSE E LIMITI DI COSTO
 > Il progetto costerà in tutto 10000€. Le risorse materiali impegnate riguardano le postazioni di lavoro dei programmatori, la disponibilità di una rete LAN e WAN per lo sviluppo. i tecnici costano dai 15-25€ l'ora. le guide costano dai 20-30€ l'ora. il fotografo costa 50€ l'ora. Il progetto dovrà riportare un margine economico pari ad almeno il 80% del ricavo complessivo e fornire profitto dopo circa 100 visualizzazioni.
 7. DOCUMENTI DI RIFERIMENTO E ALLEGATI
-> 
+> ////
 8. STRUTTURA ORGANIZZATIVA
 > Project Manager del progetto sara l'ing. Pino Guarascio
 Il Team di progetto sarà costituito da altre 15 persone.
